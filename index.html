@@ -1,0 +1,385 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- google fonts -->
+    
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Table design demo</title>
+  </head>
+  <body>
+      <!-- demo start 1 -->
+      <section id="table1">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="card list-card-1">
+                          <div class="card-header">
+                              <p class="lead header-text">List Users</p>
+                          </div>
+                          <div class="card-body search-box">
+                              <div class="card search">
+                                  <div class="card-header search-header">
+                                      <button type="button" class="search-toggle" data-toggle="collapse" data-target="#collapse1">Search <i class="fas fa-caret-down"></i></button>
+                                  </div>
+                                  <div class="card-body search-panel collapse" id="collapse1">
+                                      <div class="dropdown">
+                                          <button class="filter-btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                              Add Filter
+                                          </button>
+                                          <button type="button" class="search-btn">Search <i class="fas fa-search"></i></button>
+                                          <div class="dropdown-menu filter-menu" aria-labelledby="dropdownMenuButton">
+                                              <a class="dropdown-item" href="#">Role</a>
+                                              <a class="dropdown-item" href="#">Created by</a>
+                                              <a class="dropdown-item" href="#">Changed by</a>
+                                              <a class="dropdown-item" href="#">First Name</a>
+                                              <a class="dropdown-item" href="#">Last Name</a>
+                                              <a class="dropdown-item" href="#">User Name</a>
+                                              <a class="dropdown-item" href="#">Email</a>
+                                              <a class="dropdown-item" href="#">Last login</a>
+                                              <a class="dropdown-item" href="#">Login count</a>
+                                              <a class="dropdown-item" href="#">Failed login count</a>
+                                              <a class="dropdown-item" href="#">Created on</a>
+                                              <a class="dropdown-item" href="#">Changed on</a>
+                                              <a class="dropdown-item" href="#">Created</a>
+                                              <a class="dropdown-item" href="#">Changed</a>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="pag-panel">
+                                      <nav aria-label="Page navigation example">
+                                          <ul class="pagination mb-0 pag-ul">
+                                              <li class="page-item">
+                                                  <a class="page-link" href="#" aria-label="Previous">
+                                                      <span aria-hidden="true">&laquo;</span>
+                                                  </a>
+                                              </li>
+                                              <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                              <li class="page-item"><a class="page-link active" href="#">2</a></li>
+                                              <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                              <li class="page-item">
+                                                  <a class="page-link" href="#" aria-label="Next">
+                                                      <span aria-hidden="true">&raquo;</span>
+                                                  </a>
+                                              </li>
+                                              <li> 
+                                                  <div class="dropdown">
+                                                      <button class="dropdown-toggle size-picker" type="button" id="pageSize" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                          Page size
+                                                      </button>
+                                                      <div class="dropdown-menu size-menu" aria-labelledby="pageSize">
+                                                          <a class="dropdown-item" href="#">25</a>
+                                                          <a class="dropdown-item" href="#">50</a>
+                                                          <a class="dropdown-item" href="#">75</a>
+                                                          <a class="dropdown-item" href="#">100</a>
+                                                      </div>
+                                                  </div>
+                                              </li>
+                                              <li> <button type="button" class="mx-4 plus-btn"><i class="fas fa-plus"></i></button></li>
+                                              <li><button type="button" class="mx-4 arrow-btn"><i class="fas fa-arrow-left"></i></button></li>
+                                              <li class="ml-auto align-self-center"><p><span class="font-weight-bold">Record: </span>12</p></li>
+                                          </ul>
+                                          
+                                      </nav>
+                                  </div>
+                              </div>
+                              <div class="table-responsive">
+                                  <table class="table table-bordered mb-0">
+                                  <thead>
+                                      <tr>
+                                          <th></th>
+                                          <th><a href="#">First Name</a></th>
+                                          <th><a href="#">Last Name</a></th>
+                                          <th><a href="#">User Name</a></th>
+                                          <th><a href="#">Email</a></th>
+                                          <th><a href="#">Is Active?</a></th>
+                                          <th><a href="#">Role</a></th>
+                                      </tr>
+                                  </thead>
+                                  <tbody>
+                                      <tr>
+                                          <td>
+                                              <div class="btn-group custom-btn-group">
+                                                  <button type="button" class="btn btn-small" data-toggle="tooltip" title="show record"><i class="fas fa-search"></i></button>
+                                                  <button type="button" class="btn btn-small" data-toggle="tooltip" title="edit record"><i class="fas fa-edit"></i></button>
+                                                  <button type="button" class="btn btn-small" data-toggle="tooltip" title="delete record"><i class="fas fa-eraser"></i></button>
+                                              </div>
+                                          </td>
+                                          <td>francesco</td>
+                                          <td>vergi</td>
+                                          <td>ulixes</td>
+                                          <td>francescovergi@hotmail.com</td>
+                                          <td>True</td>
+                                          <td>[Admin]</td>
+                                      </tr>
+                                      <tr>
+                                          <td>
+                                              <div class="btn-group custom-btn-group">
+                                                  <button type="button" class="btn btn-small" data-toggle="tooltip" title="show record"><i class="fas fa-search"></i></button>
+                                                  <button type="button" class="btn btn-small" data-toggle="tooltip" title="edit record"><i class="fas fa-edit"></i></button>
+                                                  <button type="button" class="btn btn-small" data-toggle="tooltip" title="delete record"><i class="fas fa-eraser"></i></button>
+                                              </div>
+                                          </td>
+                                          <td>francesco</td>
+                                          <td>vergi</td>
+                                          <td>ulixes</td>
+                                          <td>francescovergi@hotmail.com</td>
+                                          <td>True</td>
+                                          <td>[Admin]</td>
+                                      </tr>
+                                      <tr>
+                                          <td>
+                                              <div class="btn-group custom-btn-group">
+                                                  <button type="button" class="btn btn-small" data-toggle="tooltip" title="show record"><i class="fas fa-search"></i></button>
+                                                  <button type="button" class="btn btn-small" data-toggle="tooltip" title="edit record"><i class="fas fa-edit"></i></button>
+                                                  <button type="button" class="btn btn-small" data-toggle="tooltip" title="delete record"><i class="fas fa-eraser"></i></button>
+                                              </div>
+                                          </td>
+                                          <td>francesco</td>
+                                          <td>vergi</td>
+                                          <td>ulixes</td>
+                                          <td>francescovergi@hotmail.com</td>
+                                          <td>True</td>
+                                          <td>[Admin]</td>
+                                      </tr>
+                                      <tr>
+                                          <td>
+                                              <div class="btn-group custom-btn-group">
+                                                  <button type="button" class="btn btn-small" data-toggle="tooltip" title="show record"><i class="fas fa-search"></i></button>
+                                                  <button type="button" class="btn btn-small" data-toggle="tooltip" title="edit record"><i class="fas fa-edit"></i></button>
+                                                  <button type="button" class="btn btn-small" data-toggle="tooltip" title="delete record"><i class="fas fa-eraser"></i></button>
+                                              </div>
+                                          </td>
+                                          <td>francesco</td>
+                                          <td>vergi</td>
+                                          <td>ulixes</td>
+                                          <td>francescovergi@hotmail.com</td>
+                                          <td>True</td>
+                                          <td>[Admin]</td>
+                                      </tr>
+                                      <tr>
+                                          <td>
+                                              <div class="btn-group custom-btn-group">
+                                                  <button type="button" class="btn btn-small" data-toggle="tooltip" title="show record"><i class="fas fa-search"></i></button>
+                                                  <button type="button" class="btn btn-small" data-toggle="tooltip" title="edit record"><i class="fas fa-edit"></i></button>
+                                                  <button type="button" class="btn btn-small" data-toggle="tooltip" title="delete record"><i class="fas fa-eraser"></i></button>
+                                              </div>
+                                          </td>
+                                          <td>francesco</td>
+                                          <td>vergi</td>
+                                          <td>ulixes</td>
+                                          <td>francescovergi@hotmail.com</td>
+                                          <td>True</td>
+                                          <td>[Admin]</td>
+                                      </tr>
+                                      <tr>
+                                          <td>
+                                              <div class="btn-group custom-btn-group">
+                                                  <button type="button" class="btn btn-small" data-toggle="tooltip" title="show record"><i class="fas fa-search"></i></button>
+                                                  <button type="button" class="btn btn-small" data-toggle="tooltip" title="edit record"><i class="fas fa-edit"></i></button>
+                                                  <button type="button" class="btn btn-small" data-toggle="tooltip" title="delete record"><i class="fas fa-eraser"></i></button>
+                                              </div>
+                                          </td>
+                                          <td>francesco</td>
+                                          <td>vergi</td>
+                                          <td>ulixes</td>
+                                          <td>francescovergi@hotmail.com</td>
+                                          <td>True</td>
+                                          <td>[Admin]</td>
+                                      </tr>
+                                      <tr>
+                                          <td>
+                                              <div class="btn-group custom-btn-group">
+                                                  <button type="button" class="btn btn-small" data-toggle="tooltip" title="show record"><i class="fas fa-search"></i></button>
+                                                  <button type="button" class="btn btn-small" data-toggle="tooltip" title="edit record"><i class="fas fa-edit"></i></button>
+                                                  <button type="button" class="btn btn-small" data-toggle="tooltip" title="delete record"><i class="fas fa-eraser"></i></button>
+                                              </div>
+                                          </td>
+                                          <td>francesco</td>
+                                          <td>vergi</td>
+                                          <td>ulixes</td>
+                                          <td>francescovergi@hotmail.com</td>
+                                          <td>True</td>
+                                          <td>[Admin]</td>
+                                      </tr>
+                                      <tr>
+                                          <td>
+                                              <div class="btn-group custom-btn-group">
+                                                  <button type="button" class="btn btn-small" data-toggle="tooltip" title="show record"><i class="fas fa-search"></i></button>
+                                                  <button type="button" class="btn btn-small" data-toggle="tooltip" title="edit record"><i class="fas fa-edit"></i></button>
+                                                  <button type="button" class="btn btn-small" data-toggle="tooltip" title="delete record"><i class="fas fa-eraser"></i></button>
+                                              </div>
+                                          </td>
+                                          <td>francesco</td>
+                                          <td>vergi</td>
+                                          <td>ulixes</td>
+                                          <td>francescovergi@hotmail.com</td>
+                                          <td>True</td>
+                                          <td>[Admin]</td>
+                                      </tr>
+                                      <tr>
+                                          <td>
+                                              <div class="btn-group custom-btn-group">
+                                                  <button type="button" class="btn btn-small" data-toggle="tooltip" title="show record"><i class="fas fa-search"></i></button>
+                                                  <button type="button" class="btn btn-small" data-toggle="tooltip" title="edit record"><i class="fas fa-edit"></i></button>
+                                                  <button type="button" class="btn btn-small" data-toggle="tooltip" title="delete record"><i class="fas fa-eraser"></i></button>
+                                              </div>
+                                          </td>
+                                          <td>francesco</td>
+                                          <td>vergi</td>
+                                          <td>ulixes</td>
+                                          <td>francescovergi@hotmail.com</td>
+                                          <td>True</td>
+                                          <td>[Admin]</td>
+                                      </tr>
+                                      <tr>
+                                          <td>
+                                              <div class="btn-group custom-btn-group">
+                                                  <button type="button" class="btn btn-small" data-toggle="tooltip" title="show record"><i class="fas fa-search"></i></button>
+                                                  <button type="button" class="btn btn-small" data-toggle="tooltip" title="edit record"><i class="fas fa-edit"></i></button>
+                                                  <button type="button" class="btn btn-small" data-toggle="tooltip" title="delete record"><i class="fas fa-eraser"></i></button>
+                                              </div>
+                                          </td>
+                                          <td>francesco</td>
+                                          <td>vergi</td>
+                                          <td>ulixes</td>
+                                          <td>francescovergi@hotmail.com</td>
+                                          <td>True</td>
+                                          <td>[Admin]</td>
+                                      </tr>
+                                      <tr>
+                                          <td>
+                                              <div class="btn-group custom-btn-group">
+                                                  <button type="button" class="btn btn-small" data-toggle="tooltip" title="show record"><i class="fas fa-search"></i></button>
+                                                  <button type="button" class="btn btn-small" data-toggle="tooltip" title="edit record"><i class="fas fa-edit"></i></button>
+                                                  <button type="button" class="btn btn-small" data-toggle="tooltip" title="delete record"><i class="fas fa-eraser"></i></button>
+                                              </div>
+                                          </td>
+                                          <td>francesco</td>
+                                          <td>vergi</td>
+                                          <td>ulixes</td>
+                                          <td>francescovergi@hotmail.com</td>
+                                          <td>True</td>
+                                          <td>[Admin]</td>
+                                      </tr>
+                                      <tr>
+                                          <td>
+                                              <div class="btn-group custom-btn-group">
+                                                  <button type="button" class="btn btn-small" data-toggle="tooltip" title="show record"><i class="fas fa-search"></i></button>
+                                                  <button type="button" class="btn btn-small" data-toggle="tooltip" title="edit record"><i class="fas fa-edit"></i></button>
+                                                  <button type="button" class="btn btn-small" data-toggle="tooltip" title="delete record"><i class="fas fa-eraser"></i></button>
+                                              </div>
+                                          </td>
+                                          <td>francesco</td>
+                                          <td>vergi</td>
+                                          <td>ulixes</td>
+                                          <td>francescovergi@hotmail.com</td>
+                                          <td>True</td>
+                                          <td>[Admin]</td>
+                                      </tr>
+                                      <tr>
+                                          <td>
+                                              <div class="btn-group custom-btn-group">
+                                                  <button type="button" class="btn btn-small" data-toggle="tooltip" title="show record"><i class="fas fa-search"></i></button>
+                                                  <button type="button" class="btn btn-small" data-toggle="tooltip" title="edit record"><i class="fas fa-edit"></i></button>
+                                                  <button type="button" class="btn btn-small" data-toggle="tooltip" title="delete record"><i class="fas fa-eraser"></i></button>
+                                              </div>
+                                          </td>
+                                          <td>francesco</td>
+                                          <td>vergi</td>
+                                          <td>ulixes</td>
+                                          <td>francescovergi@hotmail.com</td>
+                                          <td>True</td>
+                                          <td>[Admin]</td>
+                                      </tr>
+                                      <tr>
+                                          <td>
+                                              <div class="btn-group custom-btn-group">
+                                                  <button type="button" class="btn btn-small" data-toggle="tooltip" title="show record"><i class="fas fa-search"></i></button>
+                                                  <button type="button" class="btn btn-small" data-toggle="tooltip" title="edit record"><i class="fas fa-edit"></i></button>
+                                                  <button type="button" class="btn btn-small" data-toggle="tooltip" title="delete record"><i class="fas fa-eraser"></i></button>
+                                              </div>
+                                          </td>
+                                          <td>francesco</td>
+                                          <td>vergi</td>
+                                          <td>ulixes</td>
+                                          <td>francescovergi@hotmail.com</td>
+                                          <td>True</td>
+                                          <td>[Admin]</td>
+                                      </tr>
+                                      <tr>
+                                          <td>
+                                              <div class="btn-group custom-btn-group">
+                                                  <button type="button" class="btn btn-small" data-toggle="tooltip" title="show record"><i class="fas fa-search"></i></button>
+                                                  <button type="button" class="btn btn-small" data-toggle="tooltip" title="edit record"><i class="fas fa-edit"></i></button>
+                                                  <button type="button" class="btn btn-small" data-toggle="tooltip" title="delete record"><i class="fas fa-eraser"></i></button>
+                                              </div>
+                                          </td>
+                                          <td>francesco</td>
+                                          <td>vergi</td>
+                                          <td>ulixes</td>
+                                          <td>francescovergi@hotmail.com</td>
+                                          <td>True</td>
+                                          <td>[Admin]</td>
+                                      </tr>
+                                      <tr>
+                                          <td>
+                                              <div class="btn-group custom-btn-group">
+                                                  <button type="button" class="btn btn-small" data-toggle="tooltip" title="show record"><i class="fas fa-search"></i></button>
+                                                  <button type="button" class="btn btn-small" data-toggle="tooltip" title="edit record"><i class="fas fa-edit"></i></button>
+                                                  <button type="button" class="btn btn-small" data-toggle="tooltip" title="delete record"><i class="fas fa-eraser"></i></button>
+                                              </div>
+                                          </td>
+                                          <td>francesco</td>
+                                          <td>vergi</td>
+                                          <td>ulixes</td>
+                                          <td>francescovergi@hotmail.com</td>
+                                          <td>True</td>
+                                          <td>[Admin]</td>
+                                      </tr>
+                                      
+                                  </tbody>
+                              </table>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <!-- demo end 1 -->
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+	  
+	  
+    <!-- jquery, bootstrap, custom js -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+   
+    <script src="js/bootstrap.min.js"></script>
+	  <script src="js/script.js"></script>
+	  <script>
+        $(function () {
+          $('[data-toggle="tooltip"]').tooltip()
+        })
+      </script>
+  </body>
+</html>
